@@ -18,7 +18,6 @@ class MCP3008 {
     ]);
 
     // Select the device  
-    // console.log('tx', txBuffer);
     digitalWrite(this.cs, LOW);
 
     // Transfer the txBuffer to the device, and read the rxBuffer back in from the device
